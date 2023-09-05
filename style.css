@@ -247,19 +247,3 @@ body{
     display: flex;
     color: white;
 }
-.card{
-    display: flex;
-    width: 100%;
-    padding: 20px 15px;
-}
-.cardbody{
-    padding-left: 15px;
-}
-.cardbody h3{
-    color: #836145;
-}
-.cardbody p{
-    margin-top: 15px;
-    color: green;
-    line-height: 1.5;
-}  
