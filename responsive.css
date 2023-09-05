@@ -73,15 +73,3 @@
         text-align: center;
     
     }
-    .card{
-        flex-direction: column;
-        text-align: center;
-        
-    }
-    .card .cardbody p{
-        text-align: center;
-        width: 80%;
-        margin-left: 30px;
-    }
-    
-}
