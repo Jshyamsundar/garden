@@ -1,0 +1,87 @@
+.checkbtn {
+    display: none;
+
+}
+
+#check {
+    display: none;
+}
+
+@media screen and (max-width:576px) {
+    .navlinks {
+        position: absolute;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        top: 190px;
+        height: 75px;
+        left: 0;
+        right: 0;
+
+    }
+
+     .navlinks a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 45px;
+        width: 460px;
+        background-color: black;
+        color: white
+
+
+    } 
+    .navlinks a:hover{
+        background-color: aqua;
+    }
+
+    .checkbtn {
+        display: block;
+
+    }
+
+
+    #check:checked~.navlinks {
+        display: block;
+    }
+    .home h3 {
+        margin-top: 0px;
+    }
+    .home p{
+        line-height: 1.2;
+        width: 95%;
+    }
+    .design .cards{
+        text-align: center;
+    }
+    .design .cards p{
+        width: 40%;
+        margin-left: 130px;
+    }
+    .week{
+        flex-direction: column;
+        text-align: center;
+
+    }
+     .cardfooter .cards-11{
+        text-align: center;
+    
+    }
+    .cards-111{
+        text-align: center;
+    
+    }
+    .card{
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    .card .cardbody p{
+        text-align: center;
+        width: 80%;
+        margin-left: 30px;
+    }
+    
+}
